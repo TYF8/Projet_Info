@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="timeTableStyle.css" />
+    <title>Your Timetable</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggle">
+        <img src="Chevron-icon-drop-down-menu-WHITE.png" alt="-" />
+      </div>
+      <div class="menu-container">
+        <ul class="menu-items">
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="dashbord.html">Dashboard</a></li>
+          <li><a href="post_pr.html">Post Your PR</a></li>
+          <li><a href="Community.html">Community</a></li>
+          <li><a href="contactAnAdmin.html">Contact with an admin</a></li>
+        </ul>
+      </div>
+      <h1 class="dashboard-title">Time Table</h1>
+    </header>
+    <div class="table-container">
+      <table id="timetable">
+        <!-- Table Header -->
+        <thead>
+          <tr>
+            <th>Days</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Exercise</th>
+            <td>
+              <select class="activity-dropdown" class="monday" disabled>
+                <option value="-none-">-Nosdne-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Tuesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Wednesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="thursday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="friday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="saturday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown"  class="sunday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+          </tr>
+          <th>Exercise</th>
+            <td>
+              <select class="activity-dropdown" class="monday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Tuesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Wednesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="thursday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="friday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="saturday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="sunday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+          </tr>
+          <th>Exercise</th>
+            <td>
+              <select class="activity-dropdown"class="monday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Tuesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Wednesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="thursday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="friday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="saturday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="sunday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+          </tr>
+          <th>Exercise</th>
+            <td>
+              <select class="activity-dropdown" class="monday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Tuesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="Wednesday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="thursday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="friday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="saturday"disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+            <td>
+              <select class="activity-dropdown" class="sunday" disabled>
+                <option value="-none-">-None-</option>
+                <option value="Chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="Shoulders">Shoulders</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Forearms">Forearms</option>
+                <option value="Abs">Abs</option>
+                <option value="Quads">Quads</option>
+                <option value="Hamstrings">Hamstrings</option>
+                <option value="Calves">Calves</option>
+                <option value="Glutes">Glutes</option>
+                <option value="Cardio">Cardio</option>
+                <option value="-Rest-">-Rest-</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="finish-button">Finish</button>
+      <button id="edit-button" style="display: none">Edit</button>
+      <a href="exercicesSplit.html"><button id="create-exercises-split-button">Create Your Exercises Split</button></a>
+      <button id="reset-button">Reset Selects</button>
+    </div>
+    <script src="timeTableScript.js"></script>
+  </body>
+</html>

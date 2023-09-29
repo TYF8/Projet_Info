@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="loginstyle.css" />
+    <title>Login | Joestar Gym</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="blurry-background"></div>
+      <div class="login-box">
+        <h1>Welcome Back!</h1>
+        <form class="centered-form">
+          <fieldset>
+            <legend>Login</legend>
+            <div class="input-container">
+              <label for="username">Username:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Username"
+                required
+              />
+            </div>
+            <div class="input-container">
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+          </fieldset>
+          <a href="dashbord.html" id="login">Login</a>
+        </form>
+        <p class="forgot-password">
+          <a href="forgotYourPassword.html">Forgot your password?</a>
+        </p>
+        <p class="create-account">
+          <a href="signUp.html">Don't have an account, create yours now</a>
+        </p>
+      </div>
+    </div>
+    <a class="back-button" href="index.html">Back to Welcome Page</a>
+  </body>
+</html>

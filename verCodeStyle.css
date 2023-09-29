@@ -1,0 +1,73 @@
+
+.verify-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.verify-code-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1; 
+}
+
+.verify-code-box h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.verify-code-box .input-container {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.verify-code-box .input-container label {
+    display: block;
+    font-weight: bold;
+}
+
+.verify-code-box .input-container input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.verify-code-box button {
+    background-color: #f1c40f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.verify-code-box button:hover {
+    background-color: #e6b800;
+}
+
+
+.verify-code-box .login-link a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.verify-code-box .login-link a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu-open .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.menu-open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-open .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.dashboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dashboard-header p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.date-time {
+    margin-top: 20px;
+}
+
+
+.renew-membership {
+    margin-top: 20px;
+}
+
+.renew-membership input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: border-color 0.3s;
+}
+
+.renew-membership input[type="text"]:focus {
+    border-color: #f1c40f;
+}
+
+.renew-membership button {
+    background-color: #f1c40f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.renew-membership button:hover {
+    background-color: #e6b800;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+.dashboard-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.membership-badge {
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.dashboard-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.date-time p, .countdown p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.menu-container {
+    display: none;
+}
+
+.menu-container.active {
+    display: block;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items li {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s;
+}
+
+.menu-items li a:hover {
+    color: #007bff;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    position: absolute;
+    left: 10px; 
+}
+
+.bar {
+    width: 24px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+img{
+    height: 2vh;
+}
+.menu-container {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 10px; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items li {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s;
+}
+
+.menu-items li a:hover {
+    color: #007bff;
+}
+
+
+.dashboard-title {
+    text-align: center;
+    margin: 0 auto;
+}

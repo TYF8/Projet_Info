@@ -1,0 +1,441 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    height: 40px;
+    width: auto;
+    max-width: 100%; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    scroll-behavior: smooth;
+    padding-top: 60px;
+}
+
+header {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo img {
+    height: 70px;
+    width: auto;
+    max-width: 100%;
+    padding-right: -20vh;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    flex: 1; 
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 5vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+nav a:hover,
+nav a:focus,
+nav a.active {
+    color: #f1c40f;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #f1c40f; 
+}
+
+section {
+    padding: 40px;
+}
+
+h1, h2, h3 {
+    color: #f1c40f; 
+}
+
+
+#welcome {
+    text-align: center;
+    background-image: url('pose-gym-weightlifting-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    position: relative;
+    backdrop-filter: blur(8px);
+}
+
+#welcome::before {
+    content: "";
+    background: inherit;
+    filter: blur(8px); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+#welcome h1 {
+    font-size: 3rem;
+}
+
+#welcome p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+
+#sports {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.sport {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 20px;
+    background-color: #777;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.sport img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+}
+
+.sport h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.sport p {
+    font-size: 1rem;
+}
+
+#feedbacks {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.feedback {
+    background-color: #777;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rating {
+    font-size: 1.5rem;
+}
+
+.star {
+    color: #f1c40f; 
+}
+
+.feedback p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.client-name {
+    font-size: 1rem;
+    color: #f1c40f; 
+}
+
+
+#pricing {
+    background-color: #333;
+    padding: 60px 0;
+}
+
+.pricing-plans {
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pricing-plan {
+    background-color: #666;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 27vw;
+    height: 30vh;
+
+    margin-left: 4vh;
+}
+.section-title{
+    margin-left: 50vw;
+    margin-bottom: 2vw;
+}
+.plan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plan-name {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.badge {
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.plan-price {
+    font-size: 18px;
+    color: #f1c40f;
+}
+
+.benefits {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+}
+
+.subscribe-button {
+    background-color: #f1c40f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #e6b800;
+}
+#diamond{
+    margin-right: auto;
+}
+#infos {
+    background-color: #333; 
+    padding: 60px 0; 
+}
+
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.info-left {
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.info-right {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-right h2 {
+    margin-top: 0;
+}
+
+
+#message {
+    width: 100%;
+    height: 120px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 15px; 
+    background-color: #fff; 
+}
+.info-right label,
+.info-right input,
+.info-right textarea,
+.info-right button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;}
+    .info-right label,
+    .info-right input[type="text"],
+    .info-right input[type="email"],
+    .info-right textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px; 
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 16px; 
+        transition: border-color 0.3s ease;
+    }
+    
+    .info-right label {
+        font-weight: bold;
+    }
+    
+
+    .info-right input[type="text"]:focus,
+    .info-right input[type="email"]:focus,
+    .info-right textarea:focus {
+        border-color: #f1c40f; 
+        outline: none; 
+    }
+    .info-right button {
+        display: inline-block;
+        background-color: #f1c40f;
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+
+    .info-right button:hover,
+    .info-right button:focus {
+        background-color: #e6b800; 
+        outline: none; 
+    }    
+footer {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#welcome {
+    animation: fadeIn 1s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+nav ul li a[href^="#"] {
+    transition: color 0.3s ease;
+}
+
+nav ul li a[href^="#"]:hover {
+    color: #f1c40f;
+}
+
+.feedback:hover {
+    background-color: #888;
+    transform: scale(1.05); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#timetable {
+    background-color: #333;
+    padding: 60px 0;
+}
+
+.timetable {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f1c40f;
+    color: #fff;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #333;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #333;
+}

@@ -1,0 +1,102 @@
+
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.forgot-password-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1; 
+    width: 40vw;
+}
+
+.forgot-password-box h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.forgot-password-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.forgot-password-box .input-container {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.forgot-password-box .input-container label {
+    display: block;
+    font-weight: bold;
+}
+
+.forgot-password-box .input-container input[type="email"] {
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.forgot-password-box button {
+    background-color: #f1c40f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.forgot-password-box button:hover {
+    background-color: #e6b800;
+}
+
+
+.forgot-password-box .login-link a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.forgot-password-box .login-link a:hover {
+    text-decoration: underline;
+}
+
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.forgot-password-container .blurry-background {
+    background-image: url('Gym-background.jpg'); 
+    background-size: cover;
+    filter: blur(10px); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}

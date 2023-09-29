@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashbordStyle.css" />
+    <title>User Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggle">
+        <img src="Chevron-icon-drop-down-menu-WHITE.png" alt="-" />
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="menu-container">
+        <ul class="menu-items">
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="timeTable.html">Create your own timetable</a></li>
+          <li><a href="post_pr.html">Post Your PR</a></li>
+          <li><a href="Community.html">Community</a></li>
+          <li><a href="contactAnAdmin.html">Contact with an admin</a></li>
+        </ul>
+      </div>
+      <h1 class="dashboard-title">User Dashboard</h1>
+    </header>
+    <main>
+      <div class="dashboard">
+        <div class="dashboard-content">
+          <div class="dashboard-header">
+            <h2>
+              Welcome, Youssef Joestar
+              <span class="membership-badge">Gold</span>
+            </h2>
+            <p>Last Subscription: September 15, 2023</p>
+            <p>Current Sport: Cardio Workout</p>
+          </div>
+          <div class="date-time">
+            <p>Time: <span id="current-time">Loading...</span></p>
+            <p>Date: <span id="current-date">Loading...</span></p>
+          </div>
+          <div class="countdown">
+            <p>Days Remaining: <span id="countdown">Loading...</span></p>
+          </div>
+          <p>
+            Next Subscription:
+            <span id="next-subscription-date">Loading...</span>
+          </p>
+        </div>
+        <div class="renew-membership">
+          <input
+            type="text"
+            id="renewal-code"
+            placeholder="Enter Renewal Code"
+          />
+          <button id="renew-button">Renew</button>
+        </div>
+      </div>
+    </main>
+    <footer>&copy; 2023 Joestar Gym</footer>
+    <script src="scriptDashBord.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="post_pr.css" />
+    <title>Post Your PR</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggle">
+        <img src="Chevron-icon-drop-down-menu-WHITE.png" alt="-" />
+      </div>
+      <div class="menu-container">
+        <ul class="menu-items">
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="dashbord.html">Dashboard</a></li>
+          <li><a href="timeTable.html">Timetable</a></li>
+          <li><a href="Community.html">Community</a></li>
+          <li><a href="contactAnAdmin.html">Contact with an admin</a></li>
+        </ul>
+      </div>
+      <h1>Post Your PR</h1>
+    </header>
+    <button id="add-pr-button">Add Your PR</button>
+    <main>
+      <!-- Add a modal container for the form -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Add Your PR</h2>
+          <form id="pr-form">
+            <label for="user">User:</label>
+            <input type="text" id="user" name="user" required /><br /><br />
+
+            <label for="exercise">Exercise:</label>
+            <input
+              type="text"
+              id="exercise"
+              name="exercise"
+              required
+            /><br /><br />
+
+            <label for="weight">Weight:</label>
+            <input
+              type="number"
+              id="weight"
+              name="weight"
+              required
+            /><br /><br />
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required /><br /><br />
+
+            <label for="video">Video (MP4 only):</label>
+            <input
+              type="file"
+              id="video"
+              name="video"
+              accept=".mp4"
+              required
+            /><br /><br />
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+
+      <section class="leaderboard">
+        <h2>Leaderboard</h2>
+        <div class="exercise-leaderboard" id="deadlift-leaderboard">
+          <h3>Deadlift</h3>
+          <ol>
+            <!-- Leaderboard entries for Deadlift -->
+            <li>User1 - 200 kg</li>
+            <li>User2 - 190 kg</li>
+            <li>User3 - 180 kg</li>
+            <li>User4 - 170 kg</li>
+            <li>User5 - 160 kg</li>
+          </ol>
+        </div>
+        <div class="exercise-leaderboard" id="benchpress-leaderboard">
+          <h3>Bench Press</h3>
+          <ol>
+            <!-- Leaderboard entries for Bench Press -->
+            <li>User1 - 150 kg</li>
+            <li>User2 - 140 kg</li>
+            <li>User3 - 130 kg</li>
+            <li>User4 - 120 kg</li>
+            <li>User5 - 110 kg</li>
+          </ol>
+        </div>
+        <div class="exercise-leaderboard" id="squat-leaderboard">
+          <h3>Squat</h3>
+          <ol>
+            <!-- Leaderboard entries for Squat -->
+            <li>User1 - 250 kg</li>
+            <li>User2 - 240 kg</li>
+            <li>User3 - 230 kg</li>
+            <li>User4 - 220 kg</li>
+            <li>User5 - 210 kg</li>
+          </ol>
+        </div>
+        <div class="exercise-leaderboard" id="overheadpress-leaderboard">
+          <h3>Overhead Press</h3>
+          <ol>
+            <!-- Leaderboard entries for Overhead Press -->
+            <li>User1 - 100 kg</li>
+            <li>User2 - 95 kg</li>
+            <li>User3 - 90 kg</li>
+            <li>User4 - 85 kg</li>
+            <li>User5 - 80 kg</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="pr-feed">
+        <!-- PR posts will be displayed here -->
+        <div class="pr-entry">
+          <h3>User1</h3>
+          <p>Deadlifted 200 kg on 2023-09-15</p>
+          <iframe
+            width="320"
+            height="180"
+            src="https://www.youtube.com/embed/VIDEO_ID1"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="pr-entry">
+          <h3>User2</h3>
+          <p>Bench Pressed 150 kg on 2023-09-14</p>
+          <iframe
+            width="320"
+            height="180"
+            src="https://www.youtube.com/embed/VIDEO_ID2"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="pr-entry">
+          <h3>User3</h3>
+          <p>Squatted 250 kg on 2023-09-13</p>
+          <iframe
+            width="320"
+            height="180"
+            src="https://www.youtube.com/embed/VIDEO_ID3"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <script src="post_pr.js"></script>
+  </body>
+</html>
